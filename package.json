@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "server": "nodemon server.js",
+    "parcel": "parcel src/index.html",
+    "start": "nodemon server.js"
   },
   "author": "Roland Litzba",
   "license": "UNLICENSED",
